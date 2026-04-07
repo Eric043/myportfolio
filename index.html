@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eric Vasavada | Personal Portfolio & CV</title>
+  <link rel="icon" href="imgs/profile-pic.png" type="image/png">
+
+  <link rel="stylesheet" href="assets/Style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <!-- You can replace this with your actual photo or logo -->
+      <a href="/" class="text-logo">Eric<span class="highlight">.</span></a>
+    </div>
+    <nav class="nav-links">
+      <a href="/" class="nav-button">Home</a>
+      <a href="Skills.html" class="nav-button">Skills</a>
+      <a href="Portfolio.html" class="nav-button">Portfolio</a>
+      <a href="AboutMe.html" class="nav-button">About Me</a>
+      <a href="ContactUs.html" class="contact-us-btn">Hire Me</a>
+    </nav>
+    <div class="menu-icon">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Hi, I'm <span class="highlight">Eric Vasavada</span></h1>
+        <p class="hero-text">A passionate Web & Mobile App Developer based in Junagadh. I transform complex problems
+          into elegant, user-friendly digital solutions.</p>
+        <a href="#portfolio" class="hero-button">View My Work</a>
+        <a href="Eric_Vasavada_CV.pdf" class="hero-button"
+          style="background: transparent; border: 2px solid #fff; margin-left: 10px;">Download CV</a>
+      </div>
+      <div class="hero-image">
+        <!-- Suggestion: Use an SVG of a developer coding, or a professional portrait of yourself -->
+        <img src="imgs/developer-team.svg" alt="Eric Vasavada Coding">
+      </div>
+    </section>
+
+    <div class="smooth">
+      <header class="text-header" id="my-skills">
+        <h1>What I Do</h1>
+        <div class="underline"></div>
+      </header>
+
+      <div class="card-container">
+        <div class="card">
+          <img src="icons/web.png" alt="Web Developments" class="card-img">
+          <div class="card-content">
+            <h3 class="card-title">Full-Stack Web Dev</h3>
+            <p class="card-description">Building responsive websites using PHP, Laravel, and React.JS.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="icons/app.png" alt="App Developments" class="card-img">
+          <div class="card-content">
+            <h3 class="card-title">Mobile App Creation</h3>
+            <p class="card-description">Crafting native and cross-platform apps with Android Studio, Java, Kotlin, and
+              Flutter.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="icons/webdesign.png" alt="Design" class="card-img">
+          <div class="card-content">
+            <h3 class="card-title">UI/UX Design</h3>
+            <p class="card-description">Designing intuitive interfaces and engaging digital experiences.</p>
+          </div>
+        </div>
+      </div>
+
+      <header class="text-header" id="our-technologies">
+        <h1>Tech Stack</h1>
+        <div class="underline"></div>
+      </header>
+      <div class="tech-slider-container">
+        <div class="tech-slider">
+          <div class="tech-item"><img src="icons/php.png" alt="PHP" class="tech-img"></div>
+          <div class="tech-item"><img src="icons/laravel.png" alt="Laravel" class="tech-img"></div>
+          <div class="tech-item"><img src="icons/react.png" alt="React" class="tech-img"></div>
+          <div class="tech-item"><img src="icons/java.png" alt="Java" class="tech-img"></div>
+          <div class="tech-item"><img src="icons/kotlin.png" alt="Kotlin" class="tech-img"></div>
+          <div class="tech-item"><img src="icons/androidstudio.png" alt="Android" class="tech-img"></div>
+          <div class="tech-item"><img src="icons/php.png" alt="PHP" class="tech-img"></div>
+          <div class="tech-item"><img src="icons/laravel.png" alt="Laravel" class="tech-img"></div>
+        </div>
+      </div>
+
+      <section class="full-feature-strip" id="portfolio">
+        <div class="feature-inner">
+
+          <header class="text-header white-header">
+            <h1>Featured Projects</h1>
+            <div class="underline"></div>
+          </header>
+
+          <div class="feature-row">
+            <div class="feature-minimal">
+              <div class="icon-circle">
+                <img src="icons/custom-solutions.png" alt="E-Commerce" class="feature-icon">
+              </div>
+              <h3 class="feat-title">E-Commerce App</h3>
+              <p class="feat-desc">A full-featured mobile storefront with secure payment gateways and cart management.
+              </p>
+            </div>
+
+            <div class="feature-minimal">
+              <div class="icon-circle">
+                <img src="icons/secure-platform.png" alt="Trading Dashboard" class="feature-icon">
+              </div>
+              <h3 class="feat-title">Stock Trading Tracker</h3>
+              <p class="feat-desc">A financial dashboard designed to monitor live profit/loss margins and execute mock
+                trades.</p>
+            </div>
+
+            <div class="feature-minimal">
+              <div class="icon-circle">
+                <img src="icons/fast-performance.png" alt="Portfolio" class="feature-icon">
+              </div>
+              <h3 class="feat-title">Corporate Websites</h3>
+              <p class="feat-desc">Highly optimized, fast-loading business landing pages built on modern web stacks.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <header class="text-header" id="about-me">
+        <h1>About Me</h1>
+        <div class="underline"></div>
+      </header>
+      <div class="choose-container">
+        <div class="feature-item">
+          <h3 class="feature-title">My Background</h3>
+          <p class="card-description">I am an independent developer with a strong focus on writing clean, scalable code
+            and delivering products that users love to interact with.</p>
+        </div>
+        <div class="feature-item">
+          <h3 class="feature-title">Languages</h3>
+          <p class="card-description">Fluent in English, Gujarati, and Hindi, allowing me to collaborate effectively
+            with diverse clients and teams.</p>
+        </div>
+        <div class="feature-item">
+          <h3 class="feature-title">My Approach</h3>
+          <p class="card-description">I treat every project as if it were my own, ensuring timely delivery, strict
+            security, and pixel-perfect design.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer-content">
+
+      <!-- Left Column: Branding & Short Bio -->
+      <div class="footer-left">
+        <a href="/"
+          style="font-size: 28px; font-weight: 800; color: #fff; text-decoration: none; margin-bottom: 15px; display: inline-block;">
+          Eric<span style="color: var(--primary, #6366f1);">.</span>
+        </a>
+        <p
+          style="color: var(--text-muted, #9ca3af); font-size: 0.95rem; max-width: 320px; line-height: 1.7; margin-top: 10px;">
+          A passionate Web & Mobile App Developer crafting scalable digital solutions and intuitive user experiences.
+        </p>
+      </div>
+
+      <!-- Center Column: Quick Links -->
+      <div class="footer-center">
+        <h3>Site Map</h3>
+        <div class="footer-links">
+          <a href="/" class="footer-link">Home</a>
+          <a href="Portfolio.html" class="footer-link">Portfolio</a>
+          <a href="Skills.html" class="footer-link">Skills</a>
+          <a href="AboutMe.html" class="footer-link">About Me</a>
+          <a href="Eric_Vasavada_CV.pdf" class="footer-link" target="_blank">Download Resume</a>
+        </div>
+      </div>
+
+      <!-- Right Column: Social Links -->
+      <div class="footer-right">
+        <h3>Let's Connect</h3>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/ericvasavada/" target="_blank" class="footer-link">🔗 LinkedIn</a>
+          <a href="https://github.com/Eric043" target="_blank" class="footer-link">💻 GitHub</a>
+          <a href="mailto:ericvasavada84@gmail.com" class="footer-link">📧 Email Me</a>
+          <a href="https://wa.me/919106899603" target="_blank" class="footer-link">💬 WhatsApp</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Copyright -->
+    <div class="footer-bottom">
+      <span>Designed & Built by Eric Vasavada - © 2026 All Rights Reserved.</span>
+    </div>
+  </footer>
+
+  <script src="assets/Header.js"></script>
+  <script>
+    // Unchanged GSAP for Performance
+    document.addEventListener("DOMContentLoaded", () => {
+      gsap.utils.toArray('.card, .feature-item, .feature-minimal').forEach(item => {
+        gsap.from(item, {
+          y: 50,
+          opacity: 0,
+          duration: 1,
+          scrollTrigger: {
+            trigger: item,
+            start: "top 85%",
+            toggleActions: "play none none reverse",
+          },
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
